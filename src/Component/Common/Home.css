@@ -1,0 +1,70 @@
+.bg-color-section {
+  background-color: silver;
+}
+.about-us-content {
+  justify-content: flex-start;
+  align-content: flex-start;
+  background-color: #490d40;
+  color: darkcyan;
+  padding: 34px;
+  height: auto;
+  width: revert;
+}
+.focus-text-color {
+  color: currentColor;
+  font-family: fantasy;
+  margin-bottom: 20px;
+}
+.img-size {
+  width: 380px;
+}
+.width-naptol {
+  width: 415px;
+}
+.docker-img {
+  width: 415px;
+  margin-bottom: 13px;
+}
+
+.accordion {
+    max-width: 600px;
+    margin: 2rem auto;
+  }
+  
+  .accordion-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: darkgray;
+  }
+  
+  .accordion-title:hover {
+    background-color:darkgray;
+  }
+  
+  .accordion-title,
+  .accordion-content {
+    padding: 1rem;
+  }
+  
+  .accordion-content {
+    background-color: darkgray;
+  }
+  
+  @media screen and (max-width: 700px) {
+    body {
+      font-size: 18px;
+    }
+  
+    .accordion {
+      width: 90%;
+    }
+  }
+  .footer-content{
+      padding-top: 3rem!important;
+      background-color: lavender;
+      font-family: fantasy;
+      font-size: -10px;
+      height: 250px;
+  }

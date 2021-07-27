@@ -1,3 +1,10 @@
+
+
+*{
+margin: 0px;
+padding: 0px;
+
+}
 .App {
   text-align: center;
 }
@@ -11,6 +18,14 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.bg-colr{
+  background-color: #282c34;
+}
+.alignment-text{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .App-header {
@@ -35,4 +50,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+.align-item-text{
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+.content-htm{
+  display:flex ;
+  flex-direction: column;
+  justify-content: center;
+}
+       
+       
+.bg-warning.align-item-text {
+  margin: -59px;
 }

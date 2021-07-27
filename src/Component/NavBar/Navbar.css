@@ -1,0 +1,37 @@
+.height-next{
+  height: 300px;
+}
+.menu-item {
+  padding: 0 40px;
+  margin: 5px 10px;
+  user-select: none;
+  cursor: pointer;
+  border: none;
+}
+.menu-item-wrapper.active {
+  border: 1px blue solid;
+}
+.menu-item.active {
+  border: 1px green solid;
+}
+
+.scroll-menu-arrow {
+  padding: 20px;
+  cursor: pointer;
+}
+.bg-color-mainDiv{
+  background-color: royalblue;
+  /* width: 50px;
+  height: 50px; */
+}
+.button-text-al{
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.sticky-top {
+  background-color: #212529!important;
+  font-family: sans-serif;
+  font-weight: 700;
+  padding: 5px;
+}
