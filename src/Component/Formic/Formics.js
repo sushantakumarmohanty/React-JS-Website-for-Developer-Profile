@@ -2,12 +2,13 @@ import React from 'react'
 import { useFormik } from 'formik'
 import Button from 'react-bootstrap/Button'
 import './Style.css';
+
 export default function RegisterForm() {
 
     // A custom validation function. This must return an object
 
     // which keys are symmetrical to our values/initialValues
-
+   
     const validate = values => {
         const errors = {}
 
@@ -48,6 +49,7 @@ export default function RegisterForm() {
         }
 
     })
+   
 
     return (<div  className='cl-bg-color mt-5 py-4'>
         <h3>Register </h3>
@@ -98,7 +100,12 @@ export default function RegisterForm() {
             <br />
             <br />
             {/* <button color="success">Register</button> */}
-            <Button type="submit" variant="secondary">Register</Button>{' '}
+            <Button type="submit" variant="secondary">REGISTER</Button>{' '}
+            <a href="/LinkedIn" >
+            <Button  color="primary">LinkedIn</Button>{' '}
+             </a>
+         
         </form>
+    
     </div>)
 }

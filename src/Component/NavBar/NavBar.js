@@ -9,7 +9,8 @@ import Home from '../Common/Home';
 import AboutUs from '../Common/About';
 import Careers from '../Common/Careers';
 import Work from '../Common/Work'
-import Articles from '../Common/Articles'
+import Articles from '../Common/Articles';
+import LinkedIn from '../ForwardRefs/LinkedIn';
 
 class BootstrapNavbar extends React.Component {
     render() {
@@ -47,6 +48,10 @@ class BootstrapNavbar extends React.Component {
                                 <Route path="/articles">
                                     < Articles />
                                 </Route>
+                                <Nav.Link href="/LinkedIn">LinkedIn</Nav.Link>
+                                {/* <Route path="/LinkedIn">
+                                    < LinkedIn />
+                                </Route> */}
                             </Switch>
                         </Router>
                     </div>
